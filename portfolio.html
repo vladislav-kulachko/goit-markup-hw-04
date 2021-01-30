@@ -18,7 +18,9 @@
 </head>
 
 <body>
-  <!-- навигация и контактные данные -->
+
+  <!-- Навигация и контактные данные -->
+
   <header class="header ">
     <div class="container">
       <nav class="navigation">
@@ -33,13 +35,23 @@
         </ul>
       </nav>
       <ul class="address-header">
-        <li class="header-mail-item"><a class="header-mail-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <li class="header-mail-item"><a class="header-mail-link" href="mailto:info@devstudio.com"><svg width="16"
+              height="12" class="header-icon">
+              <use href="./img/sprite.svg#icon-envelope"></use>
+            </svg>info@devstudio.com</a>
+        <li class="header-phone-item"><a class="header-phone-link" href="tel:+380961111111"><svg width="10" height="16"
+              class="header-icon">
+              <use href="./img/sprite.svg#icon-smartphone">
+              </use>
+            </svg>
+            +38 096 111 11 11</a>
         </li>
-        <li class="header-phone-item"><a class="header-phone-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </div>
   </header>
+
   <!-- фильтр работ -->
+
   <main>
     <section class="filter">
       <div class="container">
@@ -141,13 +153,17 @@
       </div>
     </section>
   </main>
-  <!-- адрес и контакты -->
+
+  <!-- Адрес и контакты -->
+
   <footer class="footer">
     <div class="container">
-      <a class="logo-foot" href="./index.html" title="Возврат на главную страницу"><span
-          class="logo-left">Web</span>Studio</a>
       <address class="address-footer">
         <ul class="address-list">
+          <li class="logo-foot-item">
+            <a class="logo-foot" href="./index.html" title="Возврат на главную страницу"><span
+                class="logo-left">Web</span>Studio</a>
+          </li>
           <li class="address-item">
             <a class="physical-address-link" href="https://goo.gl/maps/q2Yc8nwyEdXRSMvCA" target="_blank">г. Киев, пр-т
               Леси Украинки, 26</a>
@@ -158,6 +174,40 @@
           <li class="address-item"><a class="footer-phone-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
+
+      <section class="social-section">
+        <h2 class="social-title">присоединяйтесь</h2>
+        <ul class="social-list">
+          <li class="social-list-item">
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon">
+                <use href="./img/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon">
+                <use href="./img/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon">
+                <use href="./img/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon">
+                <use href="./img/sprite.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </section>
     </div>
   </footer>
 </body>
